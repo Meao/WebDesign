@@ -1,0 +1,48 @@
+body{
+	background-color: hsla(0, 100%, 50%, 0.1);
+	background-image: url("../images/bg.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: border-box;
+	}
+	
+.container{
+	background-color: white;
+	background-image: url("../images/dottid_red_background.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-origin: border-box;
+	}
+	
+.btn-circle.btn-xl {
+            width: 90px;
+            height: 90px;
+            padding: 2px 4px;
+            border-radius: 44px;
+            font-size: 12px;
+            text-align: center;
+    /* Outer Plate Shadow */
+  box-shadow: 
+    inset 0 5px 46px 0 rgba(0,0,0,.4),
+    0 5px 13px 0 rgba(0,0,0,.75)
+    ;
+  
+  &:before {
+    box-shadow:
+      /* Inner Plate Shadow */
+      inset 0 0 2px 1px rgba(255,255,255,1), /* Top */
+      inset 0 4px 8px 2px rgba(0,0,0,.25) /* Top */
+      ;
+        }
+    }
+	
+.btn-circle.btn-sm {
+            width: 20px;
+            height: 20px;
+            padding: 0px 0px;
+            border-radius: 10px;
+            font-size: 12px;
+            text-align: center;
+        }
